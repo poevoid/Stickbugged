@@ -40,7 +40,7 @@ void gameloop() {
 
     case 1:
       //get stick bugged lol
-      arduboy.setCursor(25, HEIGHT/2-4);
+      arduboy.setCursor(0, HEIGHT/2-4);
       arduboy.print("GET STICK BUGGED LOL");
       Sprites::drawOverwrite(WIDTH / 2 - 8, 54, stickbug, currentFrame);
       if (arduboy.everyXFrames(5)) {
